@@ -22,7 +22,7 @@ def my_question(quest, Tscore):
     else:
         print('Question 4 is not correct', + Tscore-Tscore, 'mark' )  
     if answer1 != 'c' and answer2 != 'b' and answer3 != 'd' and answer4 != 'a':
-        print('The options you inputed are not invalid') 
+        print('The options you inputed are invalid') 
     if answer1 == 'c' and answer2 == 'b' and answer3 =='d' and answer4 =='a':
         print("Your total score is:", + Tscore * 4, '\n' 'Your percentage score is:', + Tscore / 100 * 20)
     elif answer1 == 'c' and answer2 == 'b' and answer4 == 'a':

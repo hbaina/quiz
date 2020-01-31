@@ -1,10 +1,12 @@
 # QUIZ PROGRAM TEST ON ENGLISH LANGUAGE
 def my_question(quest, Tscore):
-    print(quest + '\n') 
+    print(quest + '\n')
+    fulName = input("Enter your Full Name to Get Started: ") 
     answer1 = input("Attempt Question 1: ")
     answer2 = input("Attempt Question 2: ")
     answer3 = input("Attempt Question 3: ")
     answer4 = input("Attempt Question 4: ")
+    print ('Welcome to English Online Quiz Class: ' + fulName,'!' + '\n' 'Find below your performance:')
     if answer1 == "c":
         print('Question 1 is correct', + Tscore, 'marks')
     else:
@@ -24,23 +26,23 @@ def my_question(quest, Tscore):
     if answer1 != 'c' and answer2 != 'b' and answer3 != 'd' and answer4 != 'a':
         print('The options you selected are invalid') 
     if answer1 == 'c' and answer2 == 'b' and answer3 =='d' and answer4 =='a':
-        print("Your total score is:", + Tscore * 4, '\n' 'Your percentage score is:', + Tscore / 100 * 20)
+        print("Your total score is:", + Tscore * 4, '\n' 'Your percentage score is:', + Tscore / 100 * 20, '\n' 'Cheerio!!!')
     elif answer1 == 'c' and answer2 == 'b' and answer4 == 'a':
-        print("Your total score is:", + Tscore * 3, '\n' 'Your percentage score is:', + Tscore / 100 * 15)
+        print("Your total score is:", + Tscore * 3, '\n' 'Your percentage score is:', + Tscore / 100 * 15, '\n' 'Cheerio!!!')
     elif answer2 == 'b' and answer3 == 'd' and answer4 == 'a':
-        print("Your total score is:", + Tscore * 3, '\n' 'Your percentage score is:', + Tscore / 100 * 15)
+        print("Your total score is:", + Tscore * 3, '\n' 'Your percentage score is:', + Tscore / 100 * 15, '\n' 'Cheerio!!!')
     elif answer1 == 'c' and answer3 == 'd' and answer4 == 'a':
-        print("Your total score is:", + Tscore * 3, '\n' 'Your percentage score is:', + Tscore / 100 * 15)
+        print("Your total score is:", + Tscore * 3, '\n' 'Your percentage score is:', + Tscore / 100 * 15, '\n' 'Cheerio!!!')
     elif answer1 == 'c' and answer2 == 'b':
-        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10)
+        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10, '\n' 'Cheerio!!!')
     elif answer1 == 'c' and answer3 == 'd':
-        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10)
+        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10, '\n' 'Cheerio!!!')
     elif answer3 == 'd' and answer4 == 'a':
-        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10)
+        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10, '\n' 'Cheerio!!!')
     elif answer2 == 'b' and answer4 == 'a':
-        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10)
+        print("Your total score is:", + Tscore + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 10, '\n' 'Cheerio!!!')
     elif answer1 == 'c' or answer2 == 'b' or answer3 == 'd' or answer4 == 'a':
-        print("Your total score is:", + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 5)
+        print("Your total score is:", + Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 5, '\n' 'Cheerio!!!')
     elif answer1 != 'c' or answer2 != 'b' or answer3 != 'd' or answer4 != 'a':
         print("Your total score is:", + Tscore-Tscore, '\n' 'Your percentage score is:', + Tscore / 100 * 0)
 my_question(quest = "1. Which of the following is a collective noun?" + '\n' "(a) beautiful (b) joyous (c) bunch  (d) goat" + '\n\n'
